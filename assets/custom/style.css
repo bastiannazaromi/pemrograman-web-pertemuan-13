@@ -1,0 +1,86 @@
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: white;
+}
+
+.container {
+	flex: 1;
+}
+
+.new-bg-secondary {
+	background-color: #e7e8e9;
+}
+
+.new-text-primary {
+	color: #be185d;
+}
+
+.new-text-dark {
+	color: #0f172a;
+}
+
+.new-text-secondary {
+	color: #64748b;
+}
+
+.new-btn-primary {
+	color: white;
+	background-color: #be185d;
+}
+
+.new-btn-primary:hover {
+	color: white;
+	background-color: #a80c4d;
+}
+
+.new-btn-dark {
+	color: white;
+	background-color: #0f172a;
+}
+
+.new-btn-dark:hover {
+	color: white;
+	background-color: #0b111f;
+}
+
+.new-btn-secondary {
+	color: white;
+	background-color: #64748b;
+}
+
+.new-btn-secondary:hover {
+	color: white;
+	background-color: #556377;
+}
+
+.new-btn-outline-primary {
+	border-color: #be185d;
+	color: #be185d;
+}
+
+.new-btn-outline-primary:hover {
+	background-color: #be185d;
+	color: white;
+}
+
+.form-control {
+	border:1px solid #be185d;
+}
+
+.form-control:focus {
+	outline: none !important;
+	border: 2px solid #be185d;
+	box-shadow: 0 0 10px #be185d;
+}
+
+#to-top {
+	position: fixed;
+	z-index: 9999;
+	padding: 3px;
+	background-color: #be185d;
+	width: 40px;
+	right: 0;
+	bottom: 0;
+}
