@@ -67,7 +67,7 @@ if (isset($_GET['kategori'])) {
 				<div class="col-lg-12">
 					<div class="card">
 						<?php if ($berita['gambar'] != null) : ?>
-							<img src="<?php echo 'http://localhost/pertemuan-10/uploads/' . $berita['gambar']; ?>" alt="<?php echo $berita['judul']; ?>" class="img-thumbnail">
+							<img src="<?php echo 'http://localhost/pertemuan-10/uploads/' . $berita['gambar']; ?>" alt="<?php echo $berita['judul']; ?>" class="img-thumbnail" style="width: 100%; height:600px; object-fit:cover; object-position:center">
 						<?php else : ?>
 							<img src="<?php echo 'https://source.unsplash.com/720x480?' . $berita['nama']; ?>" alt="<?php echo $berita['judul']; ?>" class="w-100">
 						<?php endif; ?>
